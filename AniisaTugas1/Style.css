@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+
+    body {
+        background-color: rgb(69, 161, 189);
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 300px;
+        z-index: 1;
+    }
+
+    .card {
+        position: relative;
+        width: 300px;
+        padding: 20px;
+        height: 400px;
+        background: rgb(176, 86, 228);
+        box-shadow: 20px 30px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        margin-top: 50px;
+    }
+    
+    .judul {
+        text-align: center;
+        margin-bottom: 40px;
+        letter-spacing: 5px;
+    }
+
+    ul li {
+        margin-top: 20px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        list-style: none;
+    }
